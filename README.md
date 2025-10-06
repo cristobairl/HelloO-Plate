@@ -55,3 +55,53 @@ It also provided an opportunity to learn the fundamentals of connecting a large 
    ```bash
    git clone https://github.com/cristobairl/HelloO-Plate.git
    cd HelloO-Plate
+   ```
+
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Streamlit app:  
+   ```bash
+   streamlit run hello_plate.py
+   ```
+
+*Make sure you have a valid Gemini API key stored in your environment variables.*  
+
+---
+
+## Example Output  
+**User:** Where should I eat tonight?  
+**HelloO-Plate:** If you're thinking fast food again, I’ll lose it. Try that sushi place downtown and act like you’ve got taste for once.  
+
+---
+
+## Challenges and Learnings Recap  
+- Built experience using APIs inside Streamlit.  
+- Learned to integrate AI response handling and prompt structure in Python.  
+- Strengthened understanding of deploying local AI prototypes with limited time.  
+- Improved debugging and feature planning skills during a hackathon environment.  
+
+---
+
+## Future Improvements (Planned After Hackathon)  
+- Deploy on Streamlit Cloud with a clean UI.  
+- Add advanced prompt memory for multi-turn conversations.  
+- Extend functionality with real restaurant lookup via Google Maps API.  
+- Add custom modes for different personalities or tone levels.  
+
+---
+
+## Credits  
+Developed by **Jordan Martin Lopez**  
+Computer Science Student at the University of South Florida  
+[LinkedIn](https://linkedin.com/in/jordan-martin-lopez)  
+
+Created for **HackUSF 2025** to explore AI interaction, personality design, and Streamlit-based front-end development in Python.  
+
+---
+
+## License  
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
